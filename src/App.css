@@ -12,3 +12,16 @@ body {
 }
 
 /* Write your CSS code here */
+.Main-Container {
+  border-width: 5px;
+  border-radius: 20px;
+  border-color: brown;
+  background-color: blue;
+  max-width: 100vw;
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100vh;
+  padding: 60px;
+}

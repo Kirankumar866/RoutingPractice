@@ -1,1 +1,41 @@
 /* Write your CSS code here */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title-img {
+  align-self: center;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 10px;
+  text-decoration: none;
+}
+.listElement {
+  padding-right: 30px;
+  text-decoration: none;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+}
+.li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
